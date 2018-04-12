@@ -1,4 +1,3 @@
-Easily beautify your logs with a drop-in replacement for the `print` function.
 # Example
 The output is colorized based on the argument's type. Additionally some keywords can be highlighted (like `Epoch` here). If you are printing a sting the numbers are still getting highlighted (`loss` argument).
 ```
