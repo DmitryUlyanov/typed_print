@@ -9,8 +9,8 @@ print(f'Epoch [{e}/{300}]', 3, 3231.32, 'loss=-22.4e-9 time=121mc')
   <th>Light palette</th>
   <th>Dark palette</th>
   <tr>
-    <td width=50%><img src="args_light.png"/></td>
-    <td width=50%><img src="args_dark.png"/></td>
+    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png"/></td>
+    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/></td>
   </tr>
 </table>
 
@@ -23,8 +23,8 @@ print([131, 'I love cats', 'String with number 9'])
   <th>Light palette</th>
   <th>Dark palette</th>
   <tr>
-    <td width=50%><img src="list_light.png"/></td>
-    <td width=50%><img src="list_dark.png"/></td>
+    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/list_light.png"/></td>
+    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/list_dark.png"/></td>
   </tr>
 </table>
 
