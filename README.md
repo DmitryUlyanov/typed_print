@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/tp_logo.png">
+</p>
+  
 # Example
 The output is colorized based on the argument's type. Additionally, some keywords can be highlighted (like `Epoch` here). If you print a string, the numbers in the string will get highlighted (`loss` argument).
 ```python
