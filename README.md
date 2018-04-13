@@ -20,13 +20,14 @@ The output is colorized based on the argument's type. Additionally, some keyword
 <p align="center">
   <img height=29  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png">
 </p>
+
 - For a dark background:
 <p align="center">
 <img height=30  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/>
 </p>
 
 
-
+-------
 Of course, everything is customizable. For example, you can override list printing like that:
 ```python
 print([131, 'I love cats', 'String with number 9'])
