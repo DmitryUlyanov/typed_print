@@ -1,23 +1,33 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/tp_logo.png">
 </p>
-  
+
 # Example
-The output is colorized based on the argument's type. Additionally, some keywords can be highlighted (like `Epoch` here). If you print a string, the numbers in the string will get highlighted (`loss` argument).
+If you print something in your terminal or notebook, e.g.
 ```python
-e = 4
-print(f'Epoch [{e}/{300}]', 3, 3231.32, 'loss=-22.4e-9 time=121mc')
+print('Epoch [4/300]', 3, 3231.32, 'loss=-22.4e-9 time=121mc')
 ```
-<table style="border-width:0px; width:100%">
-  <th>Light palette</th>
-  <th>Dark palette</th>
-  <tr>
-    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png"/></td>
-    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/></td>
-  </tr>
-</table>
+you will see a very bleak output:
+<p align="center">
+  <img height=22 src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_no_color.png">
+</p>
+
+**Typed_print** gets your logs a little bit more cheerful and easy to read. 
+
+The output is colorized based on the argument's type. Additionally, some keywords can be highlighted (like `Epoch` here). If you print a string, the numbers in the string will get highlighted.
+
+- For a light background you will get:
+<p align="center">
+  <img height=29  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png">
+</p>
+
+- For a dark background:
+<p align="center">
+<img height=30  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/>
+</p>
 
 
+-------
 Of course, everything is customizable. For example, you can override list printing like that:
 ```python
 print([131, 'I love cats', 'String with number 9'])
