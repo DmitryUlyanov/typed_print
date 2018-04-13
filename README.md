@@ -7,18 +7,20 @@ If you print something in your terminal or notebook, e.g.
 ```python
 print('Epoch [4/300]', 3, 3231.32, 'loss=-22.4e-9 time=121mc')
 ```
-you will see a very break output, like that:
+you will see a very bleak output:
 <p align="center">
-  <img height=23  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_no_color.png">
+  <img height=22 src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_no_color.png">
 </p>
 
-**Typed_print** gets your logs a little bit more cheerful and easy to read. The output is colorized based on the argument's type. Additionally, some keywords can be highlighted (like `Epoch` here). If you print a string, the numbers in the string will get highlighted.
+**Typed_print** gets your logs a little bit more cheerful and easy to read. 
 
-For a light background you will get:
+The output is colorized based on the argument's type. Additionally, some keywords can be highlighted (like `Epoch` here). If you print a string, the numbers in the string will get highlighted.
+
+- For a light background you will get:
 <p align="center">
   <img height=29  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png">
 </p>
-For a dark background:
+- For a dark background:
 <p align="center">
 <img height=30  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/>
 </p>
