@@ -62,7 +62,7 @@ For the examples above the printing function is initialized as follows:
 ```python
 import typed_print as tp
 
-print = tp.init(palette='light', 
+print = tp.init(palette='light', # or 'dark' 
                 str_mode=tp.HIGHLIGHT_NUMBERS, 
                 highlight_word_list=['Epoch'])
 ```
