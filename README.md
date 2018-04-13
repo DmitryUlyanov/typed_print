@@ -8,20 +8,15 @@ The output is colorized based on the argument's type. Additionally, some keyword
 e = 4
 print(f'Epoch [{e}/{300}]', 3, 3231.32, 'loss=-22.4e-9 time=121mc')
 ```
-
+For a light background:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png">
-  <img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/>
+  <img height=29  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png">
+</p>
+For a dark background:
+<p align="center">
+<img height=30  src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/>
 </p>
 
-<table style="border-width:0px; width:100%">
-  <th>Light palette</th>
-  <th>Dark palette</th>
-  <tr>
-    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_light.png"/></td>
-    <td width=50%><img src="https://raw.githubusercontent.com/DmitryUlyanov/dmitryulyanov.github.io/master/assets/typed_print/args_dark.png"/></td>
-  </tr>
-</table>
 
 
 Of course, everything is customizable. For example, you can override list printing like that:
